@@ -3,8 +3,23 @@ import './App.css';
 import logoImg from './assets/logo.png';
 import { BsSearch } from 'react-icons/bs'
 
+interface infoProps {
+  id: number;
+  name: string;
+  status: string;
+  gender: string;
+  image: string;
+  species: string;
+  origin: {
+    name: string;
+  };
+  location: {
+    name: string;
+  };
+}
+
 export default function App(){
-  const [morty, setMorty] = useState([]);
+  const [morty, setMorty] = useState<infoProps[]>([]);
   const [load, setLoad] = useState(true);
   const [input, setInput] = useState('');
 
