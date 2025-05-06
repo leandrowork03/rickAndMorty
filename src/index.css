@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #242424;
+  background: linear-gradient(100deg, black, rgb(7, 7, 41));
   color: white;
   text-align: center;
 }

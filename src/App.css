@@ -1,4 +1,8 @@
-
+header{
+  background-image: url('./assets/cover.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
 .teste{
   border: 3px solid blue;
   background-color: rgba(100, 27, 27, 0.412);
@@ -84,9 +88,10 @@ input{
   height: 30px;
   width: 300px;
   margin: 100px 15px;
+  border: 1px solid black;
   border-radius: 5px;
-  background-color: #302f2f;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 @media(max-width: 550px){
